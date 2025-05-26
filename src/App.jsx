@@ -1,11 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { Navbar } from './components/Navbar'
-import { Home } from './screen/Home'
-import {BrowserRouter as Router,Routes,Route } from "react-router-dom"
-
+import { Navbar } from './components/Navbar.jsx'
+import { Home } from './screen/Home.jsx'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import {About} from "./components/About.jsx"
+import {Services} from "./components/Services.jsx"
+import { Portfolio } from './components/Portfolio.jsx'
+import {Contact} from "./components/Contact.jsx"
+import {Quote} from "./components/Quote.jsx"
+import {Faq} from "./components/Faq.jsx"
 
 
 function App() {
@@ -22,12 +24,12 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-        <Route path='/about' element={<p>about</p>}></Route>
-        <Route path='/services' element={<p>services</p>}></Route>
-        <Route path='/portfolio' element={<p>portfolio</p>}></Route>
-        <Route path='/contact' element={<p>contact</p>}></Route>
-        <Route path='/quote' element={<p>quote</p>}></Route>
-        <Route path='/faq' element={<p>faq</p>}></Route>
+        <Route path='/about' element={<About/>}></Route>
+        <Route path='/services' element={<Services/>}></Route>
+        <Route path='/portfolio' element={<Portfolio/>}></Route>
+        <Route path='/contact' element={<Contact/>}></Route>
+        <Route path='/quote' element={<Quote/>}></Route>
+        <Route path='/faq' element={<Faq/>}></Route>
       
       </Routes>
 

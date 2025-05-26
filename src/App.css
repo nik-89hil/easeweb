@@ -37,16 +37,12 @@ li{
   padding: .5rem;
 }
 
-.active{
-  font-size: 29px !important;
-  
-}
 
 a{
   font-size: medium;
   text-decoration: none;
   color: var(--primCol);
-  padding: 1rem .5rem;
+  padding: 1rem ;
 }
 
 .icon{
