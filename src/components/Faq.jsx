@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from "framer-motion"
-
+import FAQ from "../assets/faq.png"
 
 
 export const Faq = () => {
@@ -19,7 +19,7 @@ export const Faq = () => {
         opacity:1
       }}
       
-      >Faq (Frequently Asked Questions)</motion.h1>
+      >Faq</motion.h1>
       <motion.h4
             initial={{
               y:12,
@@ -31,7 +31,11 @@ export const Faq = () => {
               opacity:1
             }}
             
-            >start making your website with easeweb</motion.h4>
+            >(Frequently Asked Questions), start making your website with easeweb</motion.h4>
+          <br />
+          <br />
+          <img src={FAQ} alt="faq.png" className='aboutImg'/>
+          <br />
     </div>
 
 

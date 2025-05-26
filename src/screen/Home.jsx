@@ -6,6 +6,7 @@ import Front from "../assets/fonts.png"
 import { About } from "../components/About.jsx"
 import canva from "../assets/canva.png"
 import figma from "../assets/figma.png"
+import HomeImg from "../assets/home.png"
 
 export const Home = () => {
   const [visible, setVisible] = React.useState(true)
@@ -39,12 +40,12 @@ export const Home = () => {
 
         >start making your website with easeweb</motion.h4>
         <br />
+        <img src={HomeImg} alt="home.png" className='aboutImg' />
+        <br />
         <p className='heading'>
           Building modern, responsive, and results-driven websites tailored to your business needs.
           Whether you're launching a startup, growing your brand, or refreshing your online presence — we’re here to turn your vision into a powerful digital experience.
         </p>
-        <br />
-        <img src={Front} className='cover' alt="cover.jpg" />
         <br />
         <br />
         <p className="heading">

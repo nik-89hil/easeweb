@@ -27,9 +27,10 @@
 }
 
 .box .heading{
-    width: 70%;
+    width: 300px;
     margin: auto;
     padding: 1rem;
+    font-size: large;
 }
 
 .cover{
@@ -70,8 +71,22 @@
     margin: auto;
 }
 
+.aboutImg{
+    width: 600px;  
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+}
+
 .texlink{
     color: grey;
     font-weight: 700;
     text-decoration: underline;
+}
+
+
+@media screen and (max-width:610px){
+    .aboutImg{
+        width: 100%;
+    }
 }

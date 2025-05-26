@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from "framer-motion"
 import {Link} from "react-router-dom"
-
+import AboutImg from "../assets/about.png"
 
 export const About = () => {
   return (
@@ -32,6 +32,8 @@ export const About = () => {
             }}
             
             >start making your website with easeweb</motion.h4>
+            <br />
+            <img src={AboutImg} alt="about.png" className='aboutImg'/>
             <br />
             <h1>Who We Are</h1>
             <br />
