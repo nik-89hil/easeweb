@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar } from "../components/Navbar.jsx"
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
-import Front from "../assets/front.png"
+import Front from "../assets/fonts.png"
 import { About } from "../components/About.jsx"
 import canva from "../assets/canva.png"
 import figma from "../assets/figma.png"
@@ -52,6 +52,11 @@ export const Home = () => {
         </p>
         <h1>Simple & Complex Designs</h1>
         <motion.h4
+
+          style={{
+            textAlign:"center"
+          }}
+
           initial={{
             y: 20,
             opacity: 0
@@ -77,12 +82,14 @@ export const Home = () => {
               initial={{
                 rotate: "-30deg",
                 x: -100,
-                scale: 1
+                scale: 1,
+                opacity:0
               }}
 
               whileInView={{
                 rotate: "0deg",
-                x: 0
+                x: 0,
+                opacity:1
               }}
 
               whileHover={{
@@ -134,12 +141,14 @@ export const Home = () => {
 
               initial={{
                 rotate: "30deg",
-                x: 100
+                x: 100,
+                opacity:0
               }}
 
               whileInView={{
                 rotate: "0deg",
-                x: 0
+                x: 0,
+                opacity:1
               }}
 
               whileHover={{

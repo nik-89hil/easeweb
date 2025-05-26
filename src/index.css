@@ -33,7 +33,7 @@
 }
 
 .cover{
-    width: 95%;
+    width: 650px;
     height: 60vh;
     border-radius: 15px;
     display: block;
@@ -47,6 +47,11 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.createBox div{
+    margin-top:1vh ;
 }
 
 .createBox img{
@@ -57,4 +62,16 @@
 
 .tex{
     width: 300px;
+}
+
+.aboutCont{
+    width: 300px;
+    text-align: left;
+    margin: auto;
+}
+
+.texlink{
+    color: grey;
+    font-weight: 700;
+    text-decoration: underline;
 }
