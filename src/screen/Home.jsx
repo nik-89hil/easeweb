@@ -40,9 +40,9 @@ export const Home = () => {
 
         >start making your website with easeweb</motion.h4>
         <br />
-        <img src={HomeImg} alt="home.png" className='aboutImg' />
+        <img src={HomeImg} alt="home.png" className='fullImg' />
         <br />
-        <p className='heading'>
+        <p className='serCont'>
           Building modern, responsive, and results-driven websites tailored to your business needs.
           Whether you're launching a startup, growing your brand, or refreshing your online presence — we’re here to turn your vision into a powerful digital experience.
         </p>

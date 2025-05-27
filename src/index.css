@@ -1,8 +1,4 @@
-
-
-
-
-.blur{
+.blur {
     width: 100%;
     display: block;
     background-color: var(--secCol);
@@ -10,14 +6,14 @@
     transition: all 2s linear;
 }
 
-.name{
+.name {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem .5rem;
 }
 
-.box{
+.box {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -26,14 +22,14 @@
 
 }
 
-.box .heading{
+.box .heading {
     width: 300px;
     margin: auto;
     padding: 1rem;
     font-size: large;
 }
 
-.cover{
+.cover {
     width: 650px;
     height: 60vh;
     border-radius: 15px;
@@ -42,7 +38,7 @@
 }
 
 
-.createBox{
+.createBox {
     width: 90%;
     height: auto;
     display: flex;
@@ -51,45 +47,46 @@
     flex-wrap: wrap;
 }
 
-.createBox div{
-    margin-top:1vh ;
+.createBox div {
+    margin-top: 1vh;
 }
 
-.createBox img{
+.createBox img {
     width: 300px;
     height: auto;
     margin: 5px;
 }
 
-.tex{
+.tex {
     width: 300px;
 }
 
-.aboutCont{
+.aboutCont {
     width: 300px;
     text-align: left;
     margin: auto;
 }
 
-.aboutImg{
-    width: 600px;  
+.aboutImg {
+    width: 600px;
     height: auto;
     margin: auto;
     border-radius: 15px;
 }
 
-.texlink{
+.texlink {
     color: grey;
     font-weight: 700;
     text-decoration: underline;
 }
 
-.fa-box{
+.fa-box {
     width: 600px;
     margin: 1rem;
     transition: all 1s linear;
 }
-.fa-box .fl{
+
+.fa-box .fl {
     background-color: var(--secCol);
     padding: 1.5rem;
     margin: 1rem;
@@ -99,23 +96,73 @@
     cursor: pointer;
 }
 
-.fa-box .detail{
+.fa-box .detail {
     padding: 1rem;
     border: 2px solid var(--secCol);
     border-radius: 15px;
 }
 
-.btn-fa{
+.btn-fa {
     background-color: transparent;
 }
 
-.ic-fa{
+.ic-fa {
     font-size: 18px;
 }
 
+.cont-form {
+    width: 600px;
+    /* border: 2px solid var(--secCol); */
+    padding: 1rem;
+}
 
-@media screen and (max-width:610px){
-    .aboutImg{
+.formbox{
+    width: 300px;
+    margin: auto;
+}
+
+.formbox input{
+    width: 100%;
+    padding: .5rem;
+    border-radius: 20px;
+    border: 2px solid var(--secCol);
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+    border-radius: 20px;
+    border: 2px solid var(--secCol);
+    padding: .5rem;
+}
+
+.error{
+    color: red;
+    margin: .5rem;
+}
+
+.btn-cont{
+    padding: .5rem 1rem;
+    border: 2px solid var(--secCol);
+    background-color: var(--secCol);
+    margin: 5px;
+}
+
+
+.serCont{
+    width: 95%;
+    font-size: 23px;
+}
+
+.fullImg{
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width:610px) {
+    .aboutImg {
         width: 100%;
         border-radius: 0;
     }
