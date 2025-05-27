@@ -74,11 +74,28 @@ export const Contact = () => {
           </form>
           <br />
           <hr />
+          <br />
+          <div className="con-soc">
+            <p className='soc-box'>
+              <a href=""></a>
+            </p>
+            <p className='soc-box'>
+              <a href=""></a>
+            </p>
+            <p className='soc-box'>
+              <a href=""></a>
+            </p>
+            <p className='soc-box'>
+              <a href=""></a>
+            </p>
+
+          </div>
 
         </div>
       </div>
         <br />
         <br />
+
 
 
     </>

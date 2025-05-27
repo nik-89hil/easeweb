@@ -4,9 +4,17 @@ import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
 import Front from "../assets/fonts.png"
 import { About } from "../components/About.jsx"
+import {Services} from "../components/Services.jsx"
 import canva from "../assets/canva.png"
 import figma from "../assets/figma.png"
 import HomeImg from "../assets/home.png"
+import {Contact} from "../components/Contact.jsx"
+import {Faq} from  "../components/Faq.jsx"
+
+
+
+
+
 
 export const Home = () => {
   const [visible, setVisible] = React.useState(true)
@@ -199,8 +207,19 @@ export const Home = () => {
           </div>
         </div>
       </div>
-
-
+      <br />
+      <About/>
+      <br />
+      <br />
+      <Services/>
+      <br />
+      <br />
+      <Contact/>
+      <br />
+      <br />
+      <Faq/>
+      <br />
+      <br />
 
 
 

@@ -56,7 +56,13 @@ export const Services = () => {
         </p>
         
         <br />
-        <ul>
+        <motion.ul className='servBox'
+
+        initial={{scale:1,opacity:1}}
+
+        whileTap={{scale:.8,opacity:.4,color:"blue"}}
+        
+        >
           <h1>Web Design & Development</h1>
           <li>
             Custom-designed websites for your business goals
@@ -67,9 +73,16 @@ export const Services = () => {
           <li>
             Built using the latest technologies
           </li>
-        </ul>
+        </motion.ul>
         <br />
-        <ul>
+        <motion.ul className='servBox'
+        
+        
+        initial={{scale:1,opacity:1}}
+
+        whileTap={{scale:.8,opacity:.4,color:"blue"}}
+
+        >
           <h1>SEO Optimization</h1>
           <li>
             On-page SEO setup (meta tags, headings, structure)
@@ -80,9 +93,14 @@ export const Services = () => {
           <li>
             Tools to improve your search rankings
           </li>
-        </ul>
+        </motion.ul>
         <br />
-        <ul>
+        <motion.ul className='servBox'
+        initial={{scale:1,opacity:1}}
+
+        whileTap={{scale:.8,opacity:.4,color:"blue"}}
+        
+        >
           <h1>Website Maintenance</h1>
           <li>
             Regular backups, updates, and bug fixes
@@ -93,9 +111,15 @@ export const Services = () => {
           <li>
             Security monitoring and protection
           </li>
-        </ul>
+        </motion.ul>
         <br />
-        <ul>
+        <motion.ul className='servBox'
+        
+        initial={{scale:1,opacity:1}}
+
+        whileTap={{scale:.8,opacity:.4,color:"blue"}}
+        
+        >
           <h1>E-commerce Solutions</h1>
           <li>
             Online store setup with payment gateways
@@ -106,8 +130,10 @@ export const Services = () => {
           <li>
             Easy-to-use admin panel
           </li>
-        </ul>
+        </motion.ul>
         <br />
+        <br />
+        <hr />
 
       </div>
 
