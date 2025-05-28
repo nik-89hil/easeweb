@@ -111,12 +111,7 @@ export const Navbar = () => {
 
       </AnimatePresence>
       
-      {/* <div className="social">
-      <div className="insta"></div>
-      <div className="face"></div>
-      <div className="email"></div>
-      <div className="whats"></div>
-      </div> */}
+     
     </div>
 
     </>

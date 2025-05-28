@@ -26,18 +26,19 @@
 
 .box .heading {
     width: 300px;
+    height: auto;
     margin: auto;
     padding: 1rem;
     font-size: large;
 }
 
-.cover {
+/* .cover {
     width: 650px;
     height: 60vh;
     border-radius: 15px;
     display: block;
     z-index: -900;
-}
+} */
 
 
 .createBox {
