@@ -25,9 +25,9 @@ export const Navbar = () => {
     >
 
       <div className="name">
-        <p>
+        <h2>
           easeweb
-        </p>
+        </h2>
         <p>
           {
             (visible)?(<button onClick={()=>setVisible(!visible)}><MdOutlineCancel className='icon'/></button>):(<button onClick={()=>setVisible(!visible)}><LuMenu className='icon'/></button>)

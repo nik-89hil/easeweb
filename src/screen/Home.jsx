@@ -56,7 +56,8 @@ export const Home = () => {
         <br />
         <br />
         <p className="heading">
-
+          Buy Starter Plan just Rs.3,999/- only
+          get full details : <Link to={"/contact"}>click here</Link>
         </p>
         <h1>Simple & Complex Designs</h1>
         <motion.h4

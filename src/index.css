@@ -28,8 +28,10 @@
     width: 300px;
     height: auto;
     margin: auto;
-    padding: 1rem;
+    margin-block:3vh ;
+    padding: .5rem;
     font-size: large;
+    background-color: var(--secCol);
 }
 
 /* .cover {
