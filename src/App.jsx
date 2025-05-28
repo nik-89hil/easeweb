@@ -8,7 +8,7 @@ import { Portfolio } from './components/Portfolio.jsx'
 import {Contact} from "./components/Contact.jsx"
 import {Quote} from "./components/Quote.jsx"
 import {Faq} from "./components/Faq.jsx"
-
+import {Footer} from "./components/Footer.jsx"
 
 function App() {
 
@@ -32,6 +32,7 @@ function App() {
         <Route path='/faq' element={<Faq/>}></Route>
       
       </Routes>
+      <Footer/>
 
     </Router>
     

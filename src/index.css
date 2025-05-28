@@ -55,11 +55,12 @@
 .createBox img {
     width: 300px;
     height: auto;
-    margin: 5px;
+    margin: auto;
 }
 
 .tex {
     width: 300px;
+    margin: auto;
 }
 
 .aboutCont {
@@ -127,6 +128,7 @@
 .serCont{
     width: 95%;
     font-size: 23px;
+    margin: auto;
 }
 
 .fullImg{
@@ -150,6 +152,7 @@
 .servBox li,
 .servBox h1{
     width: 300px;
+    margin: auto;
 }
 
 .con-soc{
@@ -209,6 +212,21 @@
     border-radius: 20px;
 }
 
+.foot{
+    width: 100%;
+    height: auto;
+    padding-block: 7vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 4px solid var(--secCol);
+}
+
+.foot div{
+    width: 300px;
+    margin: auto;
+}
 
 
 
@@ -217,4 +235,6 @@
         width: 100%;
         border-radius: 0;
     }
+
+
 }
