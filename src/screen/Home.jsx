@@ -212,9 +212,9 @@ export const Home = () => {
       <br />
       <Services/>
       <br />
-      <br />
+      {/* <br />
       <Contact/>
-      <br />
+      <br /> */}
       <br />
       <Faq/>
       <br />
