@@ -34,14 +34,6 @@
     background-color: var(--secCol);
 }
 
-/* .cover {
-    width: 650px;
-    height: 60vh;
-    border-radius: 15px;
-    display: block;
-    z-index: -900;
-} */
-
 
 .createBox {
     width: 90%;
