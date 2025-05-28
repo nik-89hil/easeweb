@@ -88,8 +88,8 @@ export const Home = () => {
             <motion.img
 
               initial={{
-                rotate: "-30deg",
-                x: -100,
+                rotate: "-5deg",
+                x: -6,
                 scale: 1,
                 opacity:0
               }}
@@ -148,8 +148,8 @@ export const Home = () => {
             <motion.img
 
               initial={{
-                rotate: "30deg",
-                x: 100,
+                rotate: "5deg",
+                x: 6,
                 opacity:0
               }}
 
