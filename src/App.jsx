@@ -30,7 +30,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/quote' element={<Quote/>}></Route>
         <Route path='/faq' element={<Faq/>}></Route>
-      
+        <Route path='*' element={<h1 style={{textAlign:'center'}}>404: Page not found...</h1>}></Route>
       </Routes>
       <Footer/>
 

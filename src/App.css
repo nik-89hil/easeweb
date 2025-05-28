@@ -75,19 +75,19 @@ button{
 }
 
 .cont-form iframe{
-    width: 95%;
+    width: 100%;
     height: 600px;
     margin: auto;
 }
 
 .goog-form{
-  width: 300px;
+  width: 100%;
   height: 600px;
   margin: auto;
   padding: 0;
 }
 
-.goog-form > iframe{
+.goog-form  iframe{
   width: 100% !important;
   height: 100%;
 }
