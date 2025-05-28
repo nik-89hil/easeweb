@@ -76,9 +76,13 @@ button{
 
 .cont-form iframe,
 .goog-form iframe{
-    width: 300px;
+    width: 100%;
     height: 600px;
     margin: auto;
+}
+
+.pop{
+  width: 100px;
 }
 
 

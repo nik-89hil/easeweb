@@ -14,7 +14,8 @@
 }
 
 .box {
-    width: 100%;
+    width: 95%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,6 +165,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .con-soc p{
@@ -220,11 +222,13 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     border-top: 4px solid var(--secCol);
 }
 
 .foot div{
     width: 300px;
+    padding-block: 1rem;
     margin: auto;
 }
 
