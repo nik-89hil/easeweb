@@ -47,7 +47,13 @@ export const Home = () => {
 
         >start making your website with easeweb</motion.h4>
         <br />
-        <img src={HomeImg} alt="home.png" className='fullImg' />
+        <br />
+        <br />
+        <h1 style={{textAlign:"center"}}>Professional Web Development & SEO Services</h1>
+        <h2 style={{textAlign:"center"}}>Custom Website Solutions</h2>
+        <h3 style={{textAlign:"center"}}>Mobile-Friendly and SEO-Optimized</h3>
+        <br />
+        <img src={HomeImg} alt="Responsive website design services for small businesses" className='fullImg' />
         <br />
         <p className='serCont'>
           Building modern, responsive, and results-driven websites tailored to your business needs.

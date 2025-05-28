@@ -75,7 +75,7 @@ export const Navbar = () => {
         </Link>
         </li>
         <li>
-        <Link to="/services"><MdMiscellaneousServices className='icon'/>
+        <Link to="/services" title="View our web development services"><MdMiscellaneousServices className='icon'/>
           Services
         </Link>
         </li>

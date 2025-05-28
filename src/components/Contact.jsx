@@ -52,17 +52,17 @@ export const Contact = () => {
           <br />
           <div className="con-soc">
             <p className='soc-box'>
-              <a href="https://www.instagram.com/easeweb_00/" target='_blank'>
+              <a href="https://www.instagram.com/easeweb_00/" target='_blank' title="Contact us for a free quote">
                 <FaInstagram className='faceImg'/>
               </a>
             </p>
             <p className='soc-box'>
-              <a href="https://www.facebook.com/people/Rohit-Verma/61577004861272/" target='_blank'>
+              <a href="https://www.facebook.com/people/Rohit-Verma/61577004861272/" target='_blank' title="Contact us for a free quote">
                 <FaFacebook className='instaImg'/>
               </a>
             </p>
             <p className='soc-box'>
-              <a href="https://wa.me/+918384072633?text=I want to know more about web services" target='_blank'>
+              <a href="https://wa.me/+918384072633?text=I want to know more about web services" target='_blank' title="Contact us for a free quote">
                 <IoLogoWhatsapp className='whatImg' />
               </a>
             </p>
