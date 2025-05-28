@@ -120,8 +120,10 @@
     padding: 1rem;
 }
 
+
+
 .cont-form iframe,
-.goog-form iframe{
+.goog-form{
     width: 600px;
     height: 600px;
     margin: auto;

@@ -80,8 +80,16 @@ button{
     margin: auto;
 }
 
-.goog-form iframe{
+.goog-form{
+  width: 300px;
+  height: 600px;
+  margin: auto;
+  padding: 0;
+}
+
+.goog-form > iframe{
   width: 100% !important;
+  height: 100%;
 }
 
 .serCont{
