@@ -1,29 +1,14 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import ContactImg from "../assets/contact.png"
-import { useForm } from 'react-hook-form'
-
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { SiGmail } from "react-icons/si";
 
 export const Contact = () => {
 
-  const { register, handleSubmit, formState: { errors } } = useForm();
-
-
-  const showData = (data) => {
-    console.log(data)
-  }
-
-  const handleErrors = (errors) => { };
-
-
-  const registerOptions = {
-    name: { required: "required..." },
-    email: { required: "required..." },
-    message:{required: "message..."}
-  }
-
-
-
+ 
 
   return (
     <>
@@ -58,35 +43,33 @@ export const Contact = () => {
         <img src={ContactImg} alt="contact.png" className='aboutImg' />
         <br />
         <div className="cont-form">
-          <form onSubmit={handleSubmit(showData, handleErrors)} className='formbox'>
-            <label htmlFor="name">name</label><br />
-            <input type="text" name='name' {...register('name', registerOptions.name)} />
-            <p className="error">{errors?.name && errors?.name.message}</p>
-            <label htmlFor="email">email</label><br />
-            <input type="email" name='email' {...register('email', registerOptions.email)} />
-            <p className="error">{errors?.email && errors?.email.message}</p>
-            <br />
-            <textarea type="text" name='message' placeholder='message' {...register('message', registerOptions.message)} />
-            <p className="error">{errors?.message && errors?.message.message}</p>
-
-            <button className='btn-cont'>send message</button>
-            <button className='btn-cont' type='reset'>clear all</button>
-          </form>
+          <div className="goog-form">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfkhMird36r-E_teh9EX7vt8sw4N024at6eTX5B_97tQJrqcQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div>
+         
           <br />
           <hr />
           <br />
           <div className="con-soc">
             <p className='soc-box'>
-              <a href=""></a>
+              <a href="">
+                <FaInstagram className='faceImg'/>
+              </a>
             </p>
             <p className='soc-box'>
-              <a href=""></a>
+              <a href="">
+                <FaFacebook className='instaImg'/>
+              </a>
             </p>
             <p className='soc-box'>
-              <a href=""></a>
+              <a href="">
+                <IoLogoWhatsapp className='whatImg' />
+              </a>
             </p>
             <p className='soc-box'>
-              <a href=""></a>
+              <a href="">
+                <SiGmail className='emailImg'/>
+              </a>
             </p>
 
           </div>

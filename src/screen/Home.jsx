@@ -2,7 +2,6 @@ import React from 'react'
 import { Navbar } from "../components/Navbar.jsx"
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
-import Front from "../assets/fonts.png"
 import { About } from "../components/About.jsx"
 import {Services} from "../components/Services.jsx"
 import canva from "../assets/canva.png"

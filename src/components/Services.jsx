@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from "react-router-dom"
 import { motion } from 'framer-motion'
 import Serv from "../assets/service2.png"
 
@@ -134,8 +134,141 @@ export const Services = () => {
         <br />
         <br />
         <hr />
+        <br />
+        <motion.p
+
+        className='pop'
+
+        initial={{x:-40,scale:0}}
+        whileInView={{
+          x:-30,
+          scale:1.1
+        }}
+        
+        >
+           Add Google Services on your web
+        </motion.p>
+        <br />
+        <motion.p
+
+        className='pop'
+        
+        initial={{x:60,scale:0}}
+        whileInView={{
+          x:50,
+          scale:1.1
+        }}
+        transition={{
+          delay:.5
+        }}
+        
+        >
+          Add Social Media link to your web
+        </motion.p>
+        <br />
+
+         <motion.p
+
+        className='pop'
+
+        initial={{x:-40,scale:0}}
+        whileInView={{
+          x:-30,
+          scale:1.1
+        }}
+        
+        >
+           Fast and Reliable
+        </motion.p>
+        <br />
+         <motion.p
+
+        className='pop'
+        
+        initial={{x:60,scale:0}}
+        whileInView={{
+          x:50,
+          scale:1.1
+        }}
+        transition={{
+          delay:.5
+        }}
+        
+        >
+          Latest Tools and Technology
+        </motion.p>
+        <br />
+        <motion.p
+
+        className='pop'
+
+        initial={{x:-40,scale:0}}
+        whileInView={{
+          x:-30,
+          scale:1.1
+        }}
+        
+        >
+           User Friendly UI/UX
+        </motion.p>
+        <br />
+         <motion.p
+
+        className='pop'
+        
+        initial={{x:60,scale:0}}
+        whileInView={{
+          x:50,
+          scale:1.1
+        }}
+        transition={{
+          delay:.5
+        }}
+        
+        >
+          Interactive websites
+        </motion.p>
+        <br />
+         <motion.p
+
+        className='pop'
+
+        initial={{x:-40,scale:0}}
+        whileInView={{
+          x:-30,
+          scale:1.1
+        }}
+        
+        >
+          At easeweb 
+        </motion.p>
+        <br />
+        <motion.p
+
+        className='pop'
+
+        initial={{x:60,scale:0}}
+        whileInView={{
+          x:50,
+          scale:1.1
+        }}
+        transition={{
+          delay:.5
+        }}
+
+        >
+        <Link to="/contact" style={{textDecoration:"underline"}}> contact us</Link>
+        </motion.p>
+
+
+
+
 
       </div>
+      <br />
+      <br />
+      <br />
+      
 
     </>
   )
