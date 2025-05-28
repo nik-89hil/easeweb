@@ -74,11 +74,14 @@ button{
     width: 100%;
 }
 
-.cont-form iframe,
-.goog-form iframe{
+.cont-form iframe{
     width: 95%;
     height: 600px;
     margin: auto;
+}
+
+.goog-form iframe{
+  width: 100%;
 }
 
 .serCont{
